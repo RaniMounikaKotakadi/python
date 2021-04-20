@@ -1,6 +1,6 @@
 # !/usr/bin/python
 # Adding a watermark to a single-page PDF
-
+import os
 import PyPDF2
 
 input_file = "input.pdf"

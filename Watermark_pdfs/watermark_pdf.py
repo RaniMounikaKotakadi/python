@@ -1,4 +1,5 @@
 # watermarker.py
+import os
 from PyPDF2 import PdfFileWriter, PdfFileReader
 def watermark(inputpdf, outputpdf, watermarkpdf):
     watermark = PdfFileReader(watermarkpdf)

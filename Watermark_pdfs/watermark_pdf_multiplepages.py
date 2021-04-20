@@ -1,6 +1,6 @@
 # !/usr/bin/python
 # Adding a watermark to a multi-page PDF
-
+import os
 from pdfrw import PdfReader, PdfWriter, PageMerge
 
 input_file_name = "input.pdf"

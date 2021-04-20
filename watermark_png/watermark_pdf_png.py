@@ -1,6 +1,6 @@
+import os
 from reportlab.pdfgen import canvas
 from PyPDF2 import PdfFileWriter, PdfFileReader
-import os
 """
 Refer to an image if you want to add an image to a watermark.
 Fill in text if you want to watermark with text.
